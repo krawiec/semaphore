@@ -1,6 +1,8 @@
 module github.com/semaphoreui/semaphore
 
-go 1.21.0
+go 1.23.0
+
+toolchain go1.24.1
 
 require (
 	github.com/Masterminds/squirrel v1.5.4
@@ -27,7 +29,7 @@ require (
 	github.com/thedevsaddam/gojsonq/v2 v2.5.2
 	go.etcd.io/bbolt v1.3.9
 	golang.org/x/crypto v0.31.0
-	golang.org/x/oauth2 v0.21.0
+	golang.org/x/oauth2 v0.28.0
 )
 
 require (
